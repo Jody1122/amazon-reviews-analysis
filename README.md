@@ -18,3 +18,13 @@ In this analysis, we aim to gain valuable insights from Amazon customer reviews 
 Tools and techniques that I used in this project:
 - Python/Pandas
 - Viz tools: Matplotlib, Seaborn
+
+## Dataset
+
+The Amazon product reviews dataset can be downloaded on [Kaggle](https://www.kaggle.com/datasets/jillanisofttech/amazon-product-reviews) directly or using Kaggle CLI (you will have to get credentials/API token from Kaggle):
+
+```bash
+kaggle datasets download -d jillanisofttech/amazon-product-reviews
+```
+
+In this notebook, since the dataset file is large (about 300 MB), I stored the dataset on my personal Google Drive and read the dataset directly from there. If you want to rerun this notebook, please choose a method of reading CSV file based on your preference.
